@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff007c;
+      }
+
+      .cls-2 {
+        fill: #f5fbff;
+      }
+    </style>
+  </defs>
+  <g id="eventRed" transform="translate(0 0.353)">
+    <ellipse id="Ellipse_38" data-name="Ellipse 38" class="cls-1" cx="10" cy="10.5" rx="10" ry="10.5" transform="translate(0 -0.353)"/>
+    <path id="Icon_ionic-md-calendar" data-name="Icon ionic-md-calendar" class="cls-2" d="M12.4,9.905H9.905V12.4H12.4ZM11.568,4.5v.832H7.41V4.5H6.163v.832H5.539A1.042,1.042,0,0,0,4.5,6.371v7.068a1.042,1.042,0,0,0,1.039,1.039h7.9a1.042,1.042,0,0,0,1.039-1.039V6.371a1.042,1.042,0,0,0-1.039-1.039h-.624V4.5Zm1.871,8.939h-7.9V7.93h7.9Z" transform="translate(0.504 0.995)"/>
+  </g>
+</svg>

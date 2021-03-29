@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2b31;
+      }
+
+      .cls-2 {
+        fill: #77bc38;
+      }
+    </style>
+  </defs>
+  <g id="editIcon" transform="translate(-10946 -849)">
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-1" width="30" height="31" rx="1" transform="translate(10946 849)"/>
+    <path id="Icon_material-edit" data-name="Icon material-edit" class="cls-2" d="M4.5,15.905v3h3l8.853-8.853-3-3ZM18.676,7.732a.8.8,0,0,0,0-1.129L16.8,4.73a.8.8,0,0,0-1.129,0L14.21,6.2l3,3,1.465-1.465Z" transform="translate(10949.123 853.694)"/>
+  </g>
+</svg>

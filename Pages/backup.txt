@@ -1,0 +1,646 @@
+// @import "addproduct";
+@mixin fontSegoe($size, $weight: bold) {
+  font-family: "Segoe UI";
+  font-weight: $weight;
+  font-size: $size;
+  text-align: left;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+@mixin flex($jc, $ac: center, $fd: row) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ac;
+  flex-direction: $fd;
+}
+$breakpoint: 768px;
+$BGprimary: #2a2b31;
+$grn: #77bc38;
+
+h1 {
+  @include fontSegoe(25px);
+}
+
+h2 {
+  @include fontSegoe(22px);
+}
+
+h3 {
+  @include fontSegoe(18px);
+}
+
+h4 {
+  @include fontSegoe(14px);
+}
+
+h5 {
+  @include fontSegoe(12px);
+}
+
+h6 {
+  @include fontSegoe(9px);
+}
+
+p {
+  @include fontSegoe(10px);
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  .dashboard {
+    width: 102px;
+    height: 100vh;
+    background: #1d2024;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 100;
+    position: fixed;
+    .imgCenter {
+      width: 102px;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+    }
+    .dbMenu {
+      width: 40%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      img {
+        width: 33px;
+        height: auto;
+      }
+    }
+    img {
+      width: 39px;
+      height: 39px;
+      justify-content: center;
+      margin-top: 20px;
+      #logo {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+.respNavbar {
+  width: 94vw;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+.respNavbarHldr {
+  width: 94vw;
+  height: 100%;
+  @include flex(space-between);
+}
+
+.brgrMenu {
+  background-color: $BGprimary;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+#RDashboard {
+  color: $grn;
+}
+
+.rightMenu {
+  background-color: $BGprimary;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+#dropUpmenu {
+  transform: rotate(180deg);
+}
+
+.divHolder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11vw;
+}
+
+.rightMenuNav {
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+
+.dropOpen {
+  width: 35px;
+  height: 35px;
+  @include flex(center);
+  background-color: $BGprimary;
+  border-radius: 2px;
+  #dropOpenImg {
+    width: 14px;
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 2.5vw;
+  width: 82vw;
+  height: 37px;
+}
+#DbText {
+  color: #77bc38;
+}
+
+.searchDiv {
+  width: 342px;
+  height: 36px;
+  @include flex(space-between);
+}
+
+.search {
+  width: 291px;
+  height: 36px;
+  background-color: $BGprimary;
+  @include flex(space-between);
+  padding: 0px 14px;
+  margin-right: 11px;
+  border-radius: 2px;
+}
+
+#searchInput {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  @include fontSegoe(12px);
+  margin-left: 11px;
+}
+
+.support {
+  width: 116px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: $BGprimary;
+  @include flex(space-between);
+}
+
+.userDiv {
+  @include flex(space-between);
+  width: 191px;
+  height: 37px;
+}
+
+.statistics {
+  @include flex(space-between, flex-start);
+  gap: 2vw;
+  flex-wrap: wrap;
+  width: 85vw;
+  margin-bottom: 18px;
+}
+
+.news {
+  width: 50vw;
+  height: 163px;
+  background-color: $BGprimary;
+  @include flex(space-between);
+  padding: 0px 4vw;
+  border-radius: 21px;
+  position: relative;
+
+  .texts {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+  }
+
+  h2 {
+    margin: 5px 0px;
+  }
+
+  h3 {
+    margin: 5px 0px;
+  }
+  h4 {
+    margin: 2px 0px;
+  }
+}
+
+.undrawFile {
+  transform: translateY(-30px);
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.upcoming {
+  width: 121px;
+  height: 134px;
+  border-radius: 20px;
+  background-color: #2a2b31;
+  padding: 10px 22px 18px 15px;
+  background-color: $BGprimary;
+  .textUpComming {
+    width: 125px;
+    height: 18px;
+    @include flex(space-between);
+    margin-bottom: 14px;
+  }
+  .todayCont {
+    @include flex(space-between);
+    gap: 5px;
+    width: 30px;
+  }
+  .event {
+    @include flex(space-between);
+    width: 80%;
+    height: 22px;
+    margin-bottom: 14px;
+    h6 {
+      margin: 0px 0px;
+    }
+    p {
+      margin: 0px 0px;
+    }
+  }
+}
+
+.upcoming2 {
+  position: relative;
+  width: 118px;
+  height: 124px;
+  border-radius: 20px;
+  background-color: $BGprimary;
+  padding: 20px;
+  h3 {
+    position: absolute;
+    top: 44%;
+    left: 39%;
+    color: #77bc38;
+  }
+  h5 {
+    position: absolute;
+    @include fontSegoe(11px);
+    top: 10%;
+    left: 10%;
+    margin: 0px;
+  }
+}
+
+svg {
+  height: 150px;
+  width: 150px;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+#crcls {
+  margin-bottom: 8px;
+}
+
+svg circle {
+  fill: none;
+  stroke: #77bc38;
+  stroke-width: 7px;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 300;
+  stroke-linecap: round;
+}
+
+svg circle:nth-child(1) {
+  stroke: $BGprimary;
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  fill: #455060;
+}
+svg circle:nth-child(2) {
+  animation: circle 3s forwards;
+}
+
+@keyframes circle {
+  to {
+    stroke-dashoffset: 90;
+  }
+}
+
+#option {
+  width: 22%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.statIvtr {
+  @include flex(space-between, baseline);
+  position: absolute;
+  bottom: 10px;
+  gap: 10px;
+  #frst {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: $grn;
+    margin-right: -8px;
+  }
+  #scnd {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #455060;
+    margin-right: -8px;
+  }
+}
+
+#txtInventory {
+  @include flex(space-between, baseline);
+  width: 85vw;
+  margin-bottom: 34px;
+  position: relative;
+}
+
+.moreContainer {
+  @include flex(flex-end);
+  width: 100%;
+  transform: translate(8px, -16px);
+}
+
+.addProduct {
+  width: 149px;
+  height: 36px;
+  border-radius: 2px;
+  background: #2a2b31;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 52px;
+}
+
+table {
+  text-align: center;
+  border: 0px solid;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+
+  tr {
+    background-color: black;
+    @include fontSegoe(14px, thin);
+    text-align: center;
+    border-radius: 50px;
+    td {
+      background-color: $BGprimary;
+      text-align: center;
+      @include fontSegoe(14px, thin);
+      height: 57px;
+      position: relative;
+    }
+  }
+}
+
+#testMenu2 {
+  position: absolute;
+  bottom: 25px;
+  left: 0.35vw;
+  z-index: 5;
+}
+
+table tr td {
+  text-align: center;
+}
+
+table tr {
+  border-radius: 15px;
+}
+
+.devider {
+  height: 20px;
+  background-color: black;
+}
+
+.tableHolder {
+  width: 85vw;
+  height: 420px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+// modaaaalll/////////////////////////////////////////////////////////////////////////////////////////l
+
+$color: rgb(0, 0, 0);
+$darkgri: #1d2024;
+$textcolor: #e0d6e3;
+$borderinput: #707070;
+$colorgradient: linear-gradient(to right, #3b5e1c 0%, #77bc38 100%);
+
+
+#testModel {
+  display: none;
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  /* Note: currently only Safari supports backdrop-filter */
+  backdrop-filter: blur(12px);
+  --webkit-backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.09);
+  // display: flex;
+  justify-content: center;
+  align-items: center;    
+  .popup{
+    width: 443px;
+    min-width: 380px;
+    height: 525px;
+    border-radius: 2px;
+    background: #404149;
+    align-items: center;
+
+    h1 {
+      font-family: "Segoe UI";
+      font-weight: bold;
+      font-size: 22px;
+      text-align: left;
+      color: #ffffff;
+      margin: 20px;
+    }
+    &1 {
+      display: flex;
+      gap: 30px;
+      margin-left: 20px;
+    }
+
+    .ref {
+      width: 187px;
+      height: 56px;
+    }
+    .namep {
+      width: 187px;
+      height: 56px;
+      background: transparent;
+    }
+    &2 {
+      display: flex;
+      column-gap: 25px;
+      width: 85%;
+      margin: 11px 20px;
+    }
+    &2 > div {
+      flex-grow: 1;
+    }
+    &2 input {
+      width: 100%;
+    }
+    .description {
+      margin: 12px 20px;
+      textarea {
+        resize: none;
+        background-color: #404149;
+        width: 100%;
+        color: white;
+        outline: none;
+      }
+    }
+    .button {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-right: 40px;
+      margin-top: 20px;
+      input {
+        width: 169px;
+        height: 34px;
+        border-radius: 4px;
+        background: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(#3b5e1c),
+          to(#77bc38)
+        );
+        background: linear-gradient(to right, #3b5e1c 0%, #77bc38 100%);
+        margin-left: 0px;
+        cursor: pointer;
+        border-style: none;
+        color: $color;
+      }
+      #cancel {
+        width: 109px;
+        height: 36px;
+        border-radius: 4px;
+        background: #2a2b31;
+        color: $textcolor;
+      }
+    }
+  }
+  
+#Pimage {
+  width: 193px;
+  height: 129px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background: #2a2b31;
+  right: 0;
+}
+
+.firstInputs {
+  display: flex;
+}
+
+#imgPlcHldr {
+  opacity: 0;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-color: transparent;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#output {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input {
+  background-color: #404149;
+  border: 1px solid $borderinput;
+  border-image: initial;
+  outline: none;
+  width: 187px;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+}
+// background-color: $color;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+$breakpoint: 768px; //Iphone X
+@media (min-width: $breakpoint) {
+}
+
+$breakpoint: 768px; //Iphone X
+@media (max-width: $breakpoint) {
+  #Pimage {
+    width: 93%;
+  }
+  #imgPlcHldr {
+    width: 100%;
+  }
+
+  .popup {
+    .ref {
+      width: 100%;
+    }
+  }
+
+  input {
+    width: 95%;
+  }
+  .popup1 {
+    flex-direction: column-reverse;
+  }
+}
+
+  }
+
+// background-color: $color;
+
+
+//popup style
+
+//popup style
+
+//media query

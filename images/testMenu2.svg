@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95.398" height="63.452" viewBox="0 0 95.398 63.452">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #45464d;
+      }
+
+      .cls-2 {
+        fill: #2a2b31;
+      }
+
+      .cls-3 {
+        filter: url(#menu);
+      }
+    </style>
+    <filter id="menu" x="0" y="0" width="95.398" height="63.452" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.812"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="testMenu2" transform="translate(-198.63 -191)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 198.63, 191)">
+      <path id="menu-2" data-name="menu" class="cls-1" d="M1.971,34H75.427c1.088,0,1.971,1.514,1.971,3.382V71.016c0,1.868-.882,3.382-1.971,3.382H25.017l-4.578,5.054L15.454,74.4H1.971C.882,74.4,0,72.883,0,71.016V37.382C0,35.514.882,34,1.971,34Z" transform="translate(9 -28)"/>
+    </g>
+    <g id="editIcon" transform="translate(109 33)">
+      <rect id="Rectangle_148" data-name="Rectangle 148" class="cls-2" width="30" height="31" rx="1" transform="translate(104 169)"/>
+      <path id="Icon_material-edit" data-name="Icon material-edit" class="cls-1" d="M4.5,15.905v3h3l8.853-8.853-3-3ZM18.676,7.732a.8.8,0,0,0,0-1.129L16.8,4.73a.8.8,0,0,0-1.129,0L14.21,6.2l3,3,1.465-1.465Z" transform="translate(107.123 173.694)"/>
+    </g>
+    <g id="deleteIcon" transform="translate(105 33)">
+      <rect id="Rectangle_149" data-name="Rectangle 149" class="cls-2" width="30" height="31" rx="1" transform="translate(146 169)"/>
+      <path id="Icon_material-delete" data-name="Icon material-delete" class="cls-1" d="M8.393,18.789a1.791,1.791,0,0,0,1.786,1.786h7.145a1.791,1.791,0,0,0,1.786-1.786V8.072H8.393ZM20,5.393H16.877L15.984,4.5H11.519l-.893.893H7.5V7.179H20Z" transform="translate(147.077 172.164)"/>
+    </g>
+  </g>
+</svg>

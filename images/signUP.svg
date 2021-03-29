@@ -1,0 +1,79 @@
+<svg id="signUP" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #2a2b31;
+      }
+
+      .cls-4, .cls-5, .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #404149;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        fill: #e0d6e3;
+        font-size: 14px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-7 {
+        stroke: #77bc38;
+        stroke-linejoin: round;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_136" data-name="Rectangle 136" class="cls-1" width="40" height="40" transform="translate(1277 38)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_4" data-name="Groupe de masques 4" class="cls-2" transform="translate(-1277 -38)">
+    <g id="Groupe_217" data-name="Groupe 217">
+      <g id="Groupe_10" data-name="Groupe 10" transform="translate(392)">
+        <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="36" height="36" rx="2" transform="translate(887 41)"/>
+        <g id="Groupe_6" data-name="Groupe 6" transform="translate(-164.302 -441.072)">
+          <g id="Ellipse_5" data-name="Ellipse 5" class="cls-4" transform="translate(1064 492)">
+            <circle class="cls-8" cx="5.5" cy="5.5" r="5.5"/>
+            <circle class="cls-9" cx="5.5" cy="5.5" r="4.5"/>
+          </g>
+          <path id="Tracé_1" data-name="Tracé 1" class="cls-5" d="M.45-.52A5.224,5.224,0,0,1,2.026-4.513,7.085,7.085,0,0,1,6.747-5.964c2.533,0,4.069.665,5.065,2.046a6.185,6.185,0,0,1,.819,3.562" transform="translate(1062.762 508.5)"/>
+        </g>
+      </g>
+      <g id="Groupe_216" data-name="Groupe 216" transform="translate(-60 -74)">
+        <g id="Composant_13_2" data-name="Composant 13 – 2" transform="translate(1240 154.86)">
+          <path id="Tracé_423" data-name="Tracé 423" class="cls-3" d="M2,0H110.585l6.331-7.14L123.557,0H133a2,2,0,0,1,2,2V34a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(0 7.14)"/>
+        </g>
+        <g id="H4" transform="translate(1298 170)">
+          <text id="Log_out" data-name="Log out" class="cls-6" transform="translate(0 15)"><tspan x="0" y="0">Log out</tspan></text>
+        </g>
+        <g id="Icon_feather-log-out" data-name="Icon feather-log-out" transform="translate(1253.646 167.646)">
+          <path id="Tracé_420" data-name="Tracé 420" class="cls-7" d="M9.4,19.207H6.134A1.634,1.634,0,0,1,4.5,17.573V6.134A1.634,1.634,0,0,1,6.134,4.5H9.4"/>
+          <path id="Tracé_421" data-name="Tracé 421" class="cls-7" d="M24,18.671l4.085-4.085L24,10.5" transform="translate(-8.878 -2.732)"/>
+          <path id="Tracé_422" data-name="Tracé 422" class="cls-7" d="M23.3,18H13.5" transform="translate(-4.098 -6.146)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.51" height="24" viewBox="0 0 23.51 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3b5e1c;
+      }
+    </style>
+  </defs>
+  <g id="Dbchart" transform="translate(-39.245 -175)">
+    <path id="Fill_312" data-name="Fill 312" class="cls-1" d="M1575.61,343.5h-3.345a.991.991,0,0,1-.979-1V337a.991.991,0,0,1,.979-1h3.345a.991.991,0,0,1,.979,1v5.5A.991.991,0,0,1,1575.61,343.5Zm-2.371-5.5h0v3.5h1.391V338Z" transform="translate(-1530.082 -148)"/>
+    <path id="Fill_313" data-name="Fill 313" class="cls-1" d="M1582.754,343.5h-3.344a.992.992,0,0,1-.98-1v-12a.991.991,0,0,1,.98-1h3.344a.991.991,0,0,1,.98,1v12A.992.992,0,0,1,1582.754,343.5Zm-2.363-12v10h1.39v-10Z" transform="translate(-1530.082 -148)"/>
+    <path id="Fill_314" data-name="Fill 314" class="cls-1" d="M1589.9,343.5h-3.344a.992.992,0,0,1-.98-1V324a.991.991,0,0,1,.98-1h3.344a.991.991,0,0,1,.98,1v18.5A.992.992,0,0,1,1589.9,343.5ZM1587.53,325h0v16.5h1.391V325Z" transform="translate(-1530.082 -148)"/>
+    <path id="Fill_315" data-name="Fill 315" class="cls-1" d="M1591.857,347a1,1,0,0,0,0-2h-21.551a1,1,0,0,0,0,2h21.551" transform="translate(-1530.082 -148)"/>
+  </g>
+</svg>

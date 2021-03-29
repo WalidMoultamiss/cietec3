@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2b31;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #404149;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="sortBy" transform="translate(-641 -41)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-1" width="36" height="36" rx="2" transform="translate(641 41)"/>
+    <path id="Tracé_6" data-name="Tracé 6" class="cls-2" d="M2191.071,926.56H2205.8l-5.524,7.7v5.775l-2.595,2.427v-8.2Z" transform="translate(-1539.437 -875.511)"/>
+  </g>
+</svg>

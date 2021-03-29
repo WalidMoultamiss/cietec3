@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Segoe UI";
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .loginform {
+  background-color: #1d2024;
+  width: 314px;
+  height: 532px;
+  border-radius: 15px;
+}
+
+body .loginform .logo {
+  text-align: center;
+  -webkit-transform: translateY(-59px);
+          transform: translateY(-59px);
+}
+
+body .loginform .text {
+  padding-left: 20px;
+}
+
+body .loginform .text h1 {
+  font-family: "Segoe UI";
+  font-size: 25;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+body .loginform .text h4 {
+  font-family: "Segoe UI";
+  font-size: 14;
+  font-weight: Regular;
+  color: #ffffff;
+}
+
+body .loginform .input {
+  padding: 26px 20px 0 20px;
+}
+
+body .loginform .input .remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .loginform .input .remember .checkbox {
+  width: 22px;
+  height: 22px;
+  margin-left: 0px;
+  background: transparent;
+}
+
+body .loginform .input .remember input:checked ~ .checkmark {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+body .loginform .input label {
+  color: #707070;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+body .loginform .username,
+body .loginform .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #707070;
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
+
+body #userImg {
+  width: 15px;
+  margin-right: 19px;
+}
+
+body input {
+  width: 88%;
+  height: 32px;
+  background: transparent;
+  border: 0px solid #fff;
+  outline: none;
+  margin-left: 18px;
+  color: white;
+}
+
+body #btnLogin {
+  margin-top: 100px;
+  width: 265px;
+  height: 34px;
+  font-size: 13px;
+  font-weight: bolder;
+  border-radius: 4px;
+  background: -webkit-gradient(linear, left top, right top, from(#3b5e1c), to(#77bc38));
+  background: linear-gradient(to right, #3b5e1c 0%, #77bc38 100%);
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.container input:checked ~ .checkmark {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: linear-gradient(to right, red, yellow);
+}
+/*# sourceMappingURL=login.css.map */

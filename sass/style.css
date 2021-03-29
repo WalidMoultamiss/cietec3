@@ -1,0 +1,1395 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+
+h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+
+h3 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+h4 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+}
+
+h5 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+}
+
+h6 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 9px;
+  text-align: left;
+  color: white;
+}
+
+p {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left;
+  color: white;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: auto;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: black;
+  font-family: "Segoe UI";
+}
+
+body .dashboard {
+  width: 102px;
+  height: 100vh;
+  background: #1d2024;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  z-index: 120;
+  position: fixed;
+}
+
+body .dashboard .imgCenter {
+  width: 102px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .dashboard .dbMenu {
+  width: 40%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body .dashboard .dbMenu img {
+  width: 33px;
+  height: auto;
+}
+
+body .dashboard img {
+  width: 39px;
+  height: 39px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+body .dashboard img #logo {
+  margin-top: 18px;
+}
+
+.respNavbar {
+  width: 94vw;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+.respNavbarHldr {
+  width: 94vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.brgrMenu {
+  background-color: #2a2b31;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+#RDashboard {
+  color: #77bc38;
+}
+
+.rightMenu {
+  background-color: #2a2b31;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+#dropUpmenu {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.divHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 11vw;
+}
+
+.rightMenuNav {
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+
+.dropOpen {
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #2a2b31;
+  border-radius: 2px;
+}
+
+.dropOpen #dropOpenImg {
+  width: 14px;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 2.5vw;
+  width: 82vw;
+  height: 37px;
+}
+
+#DbText {
+  color: #77bc38;
+}
+
+.searchDiv {
+  width: 342px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.search {
+  width: 291px;
+  height: 36px;
+  background-color: #2a2b31;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px;
+  margin-right: 11px;
+  border-radius: 2px;
+}
+
+#searchInput {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+  margin-left: 11px;
+}
+
+.support {
+  width: 116px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #2a2b31;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.userDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 191px;
+  height: 37px;
+}
+
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 2vw;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 85vw;
+  margin-bottom: 18px;
+}
+
+.news {
+  width: 50vw;
+  height: 163px;
+  background-color: #2a2b31;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 4vw;
+  border-radius: 21px;
+  position: relative;
+}
+
+.news .texts {
+  position: absolute;
+  z-index: 2;
+  width: 336px;
+}
+
+.news h2 {
+  margin: 5px 0px;
+}
+
+.news h3 {
+  margin: 5px 0px;
+}
+
+.news h4 {
+  margin: 2px 0px;
+}
+
+.undrawFile {
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.upcoming {
+  width: 164px;
+  height: 164px;
+  border-radius: 20px;
+  background-color: #2a2b31;
+  padding: 10px 22px 18px 15px;
+  background-color: #2a2b31;
+}
+
+.upcoming .textUpComming {
+  width: 125px;
+  height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 14px;
+}
+
+.upcoming .todayCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 5px;
+  width: 30px;
+}
+
+.upcoming .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 80%;
+  height: 22px;
+  margin-bottom: 14px;
+}
+
+.upcoming .event h6 {
+  margin: 0px 0px;
+}
+
+.upcoming .event p {
+  margin: 0px 0px;
+}
+
+.upcoming2 {
+  position: relative;
+  width: 164px;
+  height: 164px;
+  border-radius: 20px;
+  background-color: #2a2b31;
+  padding: 20px;
+}
+
+.upcoming2 h3 {
+  position: absolute;
+  top: 44%;
+  left: 39%;
+  color: #77bc38;
+}
+
+.upcoming2 h5 {
+  position: absolute;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 11px;
+  text-align: left;
+  color: white;
+  top: 10%;
+  left: 10%;
+  margin: 0px;
+}
+
+svg {
+  height: 150px;
+  width: 150px;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+#crcls {
+  margin-bottom: 8px;
+}
+
+svg circle {
+  fill: none;
+  stroke: #77bc38;
+  stroke-width: 7px;
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 300;
+  stroke-linecap: round;
+}
+
+svg circle:nth-child(1) {
+  stroke: #2a2b31;
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  fill: #455060;
+}
+
+svg circle:nth-child(2) {
+  -webkit-animation: circle 3s forwards;
+  animation: circle 3s forwards;
+}
+
+@-webkit-keyframes circle {
+  to {
+    stroke-dashoffset: 90;
+  }
+}
+
+@keyframes circle {
+  to {
+    stroke-dashoffset: 90;
+  }
+}
+
+#option {
+  width: 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.statIvtr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: absolute;
+  bottom: 10px;
+  gap: 10px;
+}
+
+.statIvtr #frst {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #77bc38;
+  margin-right: -8px;
+}
+
+.statIvtr #scnd {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #455060;
+  margin-right: -8px;
+}
+
+#txtInventory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 85vw;
+  margin-bottom: 34px;
+  position: relative;
+}
+
+.moreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  -webkit-transform: translate(8px, -16px);
+  transform: translate(8px, -16px);
+}
+
+.addProduct {
+  width: 149px;
+  height: 36px;
+  border-radius: 2px;
+  background: #2a2b31;
+  justify-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-style: none;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+table {
+  text-align: center;
+  border: 0px solid;
+  border-collapse: collapse;
+  width: 1243px;
+  color: white;
+}
+
+table tr {
+  background-color: black;
+  font-family: "Segoe UI";
+  font-weight: thin;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+
+table tr td {
+  background-color: #2a2b31;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-weight: thin;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  height: 57px;
+  position: relative;
+}
+
+table tr td .optionTd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+table tr td .optionTd #editIcon {
+  border-style: none;
+  outline: none;
+  outline-style: none;
+  background: transparent;
+  z-index: 7;
+  bottom: 46px;
+  right: 22px;
+  cursor: pointer;
+}
+
+table tr td .optionTd #deleteIcon {
+  border-style: none;
+  cursor: pointer;
+  outline-style: none;
+  background: transparent;
+  z-index: 7;
+  bottom: 46px;
+  right: -20px;
+}
+
+#testMenu2 {
+  position: absolute;
+  display: none;
+  bottom: 25px;
+  left: 10px;
+  z-index: 5;
+}
+
+table tr td {
+  text-align: center;
+}
+
+table tr {
+  border-radius: 15px;
+}
+
+.devider {
+  height: 20px;
+  background-color: black;
+}
+
+.tableHolder {
+  width: 85vw;
+  height: 420px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#testModel {
+  display: none;
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  /* Note: currently only Safari supports backdrop-filter */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  --webkit-backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.09);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#testModel .popup {
+  width: 443px;
+  min-width: 380px;
+  height: 540px;
+  border-radius: 2px;
+  background: #404149;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#testModel .popup h1 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #ffffff;
+  margin: 20px;
+}
+
+#testModel .popup1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+#testModel .popup .ref {
+  width: 187px;
+  height: 56px;
+}
+
+#testModel .popup .namep {
+  width: 187px;
+  height: 56px;
+  background: transparent;
+}
+
+#testModel .popup2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  width: 86%;
+  margin: 11px 20px;
+}
+
+#testModel .popup2 > div {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+#testModel .popup2 input {
+  width: 100%;
+}
+
+#testModel .popup .description {
+  margin: 12px 20px;
+}
+
+#testModel .popup .description textarea {
+  resize: none;
+  background-color: #404149;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+
+#testModel .popup .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-right: 19px;
+  margin-top: 20px;
+}
+
+#testModel .popup .button input {
+  width: 169px;
+  height: 34px;
+  border-radius: 4px;
+  background: #77bc38;
+  cursor: pointer;
+  border-style: none;
+  color: black;
+}
+
+#testModel .popup .button #cancel {
+  width: 109px;
+  height: 36px;
+  border-radius: 4px;
+  background: #2a2b31;
+  color: #e0d6e3;
+}
+
+#testModel #Pimage {
+  width: 300px;
+  height: 129px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background: #2a2b31;
+  right: 0;
+}
+
+#testModel #imgPlcHldr {
+  opacity: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-color: transparent;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#testModel #output {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#testModel input {
+  background-color: #404149;
+  border: 1px solid #707070;
+  -o-border-image: initial;
+  border-image: initial;
+  outline: none;
+  width: 187px;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+}
+
+#updateModel {
+  display: none;
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  --webkit-backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.09);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#updateModel .firstInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 7px;
+}
+
+#updateModel .popup {
+  width: 443px;
+  min-width: 380px;
+  height: 540px;
+  border-radius: 2px;
+  background: #404149;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#updateModel .popup h1 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  color: #ffffff;
+  margin: 20px;
+}
+
+#updateModel .popup1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+#updateModel .popup .ref {
+  width: 187px;
+  height: 56px;
+}
+
+#updateModel .popup .namep {
+  width: 187px;
+  height: 56px;
+  background: transparent;
+}
+
+#updateModel .popup2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  width: 86%;
+  margin: 11px 20px;
+}
+
+#updateModel .popup2 > div {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+#updateModel .popup2 input {
+  width: 100%;
+}
+
+#updateModel .popup .description {
+  margin: 12px 20px;
+}
+
+#updateModel .popup .description textarea {
+  resize: none;
+  background-color: #404149;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+
+#updateModel .popup .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-right: 19px;
+  margin-top: 20px;
+}
+
+#updateModel .popup .button input {
+  width: 169px;
+  height: 34px;
+  border-radius: 4px;
+  background: #77bc38;
+  cursor: pointer;
+  border-style: none;
+  color: black;
+}
+
+#updateModel .popup .button #cancel {
+  width: 109px;
+  height: 36px;
+  border-radius: 4px;
+  background: #2a2b31;
+  color: #e0d6e3;
+}
+
+#updateModel #Pimage {
+  width: 300px;
+  height: 129px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background: #2a2b31;
+  right: 0;
+}
+
+#updateModel #imgPlcHldr {
+  opacity: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed grey;
+  border-radius: 15px;
+  background-color: transparent;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#updateModel #output {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#updateModel input {
+  background-color: #404149;
+  border: 1px solid #707070;
+  -o-border-image: initial;
+  border-image: initial;
+  outline: none;
+  width: 187px;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+}
+
+@media (min-width: 768px) {
+  #testModel .popup .popup1 {
+    width: 90%;
+  }
+  #testModel .popup .popup1 .firstInputs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #testModel .popup .popup1 .firstInputs .nameP {
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  #testModel .popup {
+    width: 93%;
+    height: 632px;
+  }
+  #testModel .popup .ref {
+    width: 150px;
+  }
+  #testModel .popup .ref #textref {
+    width: 150px;
+  }
+  #testModel .popup .popup1 .firstInputs {
+    gap: 30px;
+  }
+  #testModel .popup .popup1 .firstInputs .nameP {
+    width: 160px;
+  }
+  #testModel .popup .popup1 .firstInputs .nameP input {
+    width: 150px;
+  }
+  #testModel .popup .popup1 #Pimage {
+    width: 93%;
+  }
+  #testModel .popup .popup1 #Pimage #imgPlcHldr {
+    width: 100%;
+  }
+  .undrawFile {
+    opacity: 0.32;
+  }
+  .divHolder {
+    margin-left: 10px;
+  }
+  .dashboard {
+    left: -102px;
+  }
+  svg {
+    height: 96px;
+    width: 120px;
+  }
+  .navBar {
+    display: none;
+  }
+  .statistics {
+    width: 95vw;
+  }
+  .news {
+    width: 90vw;
+    margin-bottom: 22px;
+  }
+  .tableHolder {
+    width: 95vw;
+  }
+  .tableHolder table {
+    width: 1200px;
+  }
+  .respNavbar {
+    display: block;
+  }
+  .addProduct {
+    width: 37px;
+    right: -35px;
+    top: 0;
+  }
+  .addProduct h4 {
+    display: none;
+  }
+  .brgrMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .rightMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .rightMenu {
+    position: absolute;
+    top: 0;
+    width: 41px;
+    height: 262px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+  }
+  .rightMenu img {
+    margin-right: 12px;
+  }
+  .search {
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+  }
+  #searchInput {
+    position: absolute;
+    right: 36px;
+    display: none;
+    width: 280px;
+    height: 36px;
+    background-color: #2a2b31;
+  }
+  .notificationRSP {
+    margin-right: -9px;
+  }
+  .userRSP {
+    margin-right: -14px;
+  }
+  .supportRSP {
+    margin-right: -2px;
+  }
+  #Pimage {
+    width: 20px;
+  }
+  input {
+    width: 95%;
+  }
+  .popup1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #testModel2 .popup3 {
+    width: 353px;
+  }
+}
+
+#testModel2 .container .popup #popup1delete {
+  width: 330px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: auto;
+  padding: 13px 0px;
+  border-radius: 2px;
+  background-color: #404149;
+}
+
+#testModel2 {
+  display: none;
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  /* Note: currently only Safari supports backdrop-filter */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  --webkit-backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.09);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#testModel2 .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+#testModel2 .popup {
+  width: 430px;
+  height: auto;
+  padding: 13px 0px;
+  border-radius: 2px;
+  background-color: #404149;
+}
+
+#testModel2 .popup h1 {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#testModel2 .popup1 {
+  gap: 11px;
+  display: FLEX;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+#testModel2 .popup1 input {
+  width: 169px;
+  height: 34px;
+  border-radius: 4px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3b5e1c),
+    to(#77bc38)
+  );
+  background: linear-gradient(to right, #3b5e1c 0%, #77bc38 100%);
+  margin-left: 0px;
+  cursor: pointer;
+  border-style: none;
+  font-size: 14px;
+}
+
+#testModel2 .popup1 #cancel2 {
+  width: 109px;
+  height: 36px;
+  border-radius: 4px;
+  background: #2a2b31;
+  color: #e0d6e3;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

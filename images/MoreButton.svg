@@ -1,0 +1,22 @@
+<svg id="MoreButton" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #77bc38;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #29313a;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <ellipse id="Ellipse_40" data-name="Ellipse 40" class="cls-1" cx="8" cy="8.5" rx="8" ry="8.5"/>
+  <g id="Groupe_72" data-name="Groupe 72" transform="translate(4.089 8.837) rotate(-45)">
+    <line id="Ligne_1" data-name="Ligne 1" class="cls-2" x1="6.008" transform="translate(0 2.495)"/>
+    <line id="Ligne_2" data-name="Ligne 2" class="cls-2" x2="2.495" y2="2.495" transform="translate(3.513)"/>
+    <line id="Ligne_3" data-name="Ligne 3" class="cls-2" y1="2.56" x2="2.186" transform="translate(3.822 2.495)"/>
+  </g>
+</svg>

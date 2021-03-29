@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2b31;
+      }
+
+      .cls-2 {
+        fill: #404149;
+      }
+
+      .cls-3 {
+        fill: #77bc38;
+      }
+    </style>
+  </defs>
+  <g id="notificationON" transform="translate(-887 -41)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-1" width="36" height="36" rx="2" transform="translate(887 41)"/>
+    <path id="Rectangle_17" data-name="Rectangle 17" class="cls-1" d="M4.5,0h0A4.5,4.5,0,0,1,9,4.5V13a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4.5A4.5,4.5,0,0,1,4.5,0Z" transform="translate(901 51)"/>
+    <path id="Icon_material-notifications" data-name="Icon material-notifications" class="cls-2" d="M12.564,19.75a1.646,1.646,0,0,0,1.641-1.641H10.923A1.641,1.641,0,0,0,12.564,19.75Zm4.923-4.923v-4.1a5,5,0,0,0-3.692-5.186V4.981a1.231,1.231,0,1,0-2.462,0v.558a4.985,4.985,0,0,0-3.692,5.186v4.1L6,16.468v.821H19.128v-.821Z" transform="translate(892.936 47.25)"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-3" cx="4.5" cy="4.5" r="4.5" transform="translate(912 43)"/>
+  </g>
+</svg>

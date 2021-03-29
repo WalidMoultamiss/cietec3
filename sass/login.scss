@@ -1,0 +1,114 @@
+$color: rgb(0, 0, 0);
+$darkgri: #1d2024;
+$textcolor: #ffffff;
+$borderinput: #707070;
+$colorgradient: linear-gradient(to right, #3b5e1c 0%, #77bc38 100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Segoe UI";
+}
+
+body {
+  background-color: $color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .loginform {
+    background-color: $darkgri;
+    width: 314px;
+    height: 532px;
+    border-radius: 15px;
+
+    .logo {
+      text-align: center;
+      transform: translateY(-59px);
+    }
+    .text {
+      padding-left: 20px;
+      h1 {
+        font-family: "Segoe UI";
+        font-size: 25;
+        font-weight: bold;
+        color: $textcolor;
+      }
+      h4 {
+        font-family: "Segoe UI";
+        font-size: 14;
+        font-weight: Regular;
+        color: $textcolor;
+      }
+    }
+
+    .input {
+      padding: 26px 20px 0 20px;
+      .remember {
+        display: flex;
+        align-items: center;
+        .checkbox {
+          width: 22px;
+          height: 22px;
+          margin-left: 0px;
+          background: transparent;
+
+          // border:linear-gradient(to right, #3b5e1c 0%, #77bc38 100%); ;
+        }
+        input:checked ~ .checkmark {
+          background-image: linear-gradient(to right, red, yellow);
+        }
+      }
+      label {
+        color: $borderinput;
+        padding-left: 10px;
+        cursor: pointer;
+      }
+    }
+
+    .username,
+    .password {
+      display: flex;
+      border: 1px solid #707070;
+      margin-bottom: 18px;
+      border-radius: 5px;
+    }
+  }
+
+  #userImg {
+    width: 15px;
+    margin-right: 19px;
+  }
+  input {
+    width: 88%;
+    height: 32px;
+    background: transparent;
+    border: 0px solid #fff;
+    outline: none;
+    margin-left: 18px;
+    color: white;
+    &-internal-autofill-selected {
+        background-color: rgb(255, 255, 255) !important;
+        background-image: none !important;
+        color: rgb(0, 0, 0) !important;
+    }
+
+
+  }
+  #btnLogin {
+    margin-top: 100px;
+    width: 265px;
+    height: 34px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 4px;
+    background: $colorgradient;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+}
+.container input:checked ~ .checkmark {
+  background-image: linear-gradient(to right, red, yellow);
+}

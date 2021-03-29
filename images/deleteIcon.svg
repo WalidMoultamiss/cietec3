@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2b31;
+      }
+
+      .cls-2 {
+        fill: #77bc38;
+      }
+    </style>
+  </defs>
+  <g id="deleteIcon" transform="translate(-10988 -849)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-1" width="30" height="31" rx="1" transform="translate(10988 849)"/>
+    <path id="Icon_material-delete" data-name="Icon material-delete" class="cls-2" d="M8.393,18.789a1.791,1.791,0,0,0,1.786,1.786h7.145a1.791,1.791,0,0,0,1.786-1.786V8.072H8.393ZM20,5.393H16.877L15.984,4.5H11.519l-.893.893H7.5V7.179H20Z" transform="translate(10989.077 852.164)"/>
+  </g>
+</svg>
